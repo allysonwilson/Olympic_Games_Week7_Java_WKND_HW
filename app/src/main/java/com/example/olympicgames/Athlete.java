@@ -5,6 +5,8 @@ package com.example.olympicgames;
  */
 
 public class Athlete implements Participation{
+    public String name;
+    public String country;
 
 
 

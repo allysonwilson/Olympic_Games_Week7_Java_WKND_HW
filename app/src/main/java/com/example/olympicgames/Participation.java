@@ -6,6 +6,6 @@ package com.example.olympicgames;
 
 public interface Participation {
     public double participateInEvent(Athlete athlete);
-    public int score()
+
 
 }
