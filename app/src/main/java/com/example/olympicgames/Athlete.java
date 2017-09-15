@@ -4,7 +4,7 @@ package com.example.olympicgames;
  * Created by allysonwilson on 9/15/17.
  */
 
-public class Athlete extends Competitor implements Participation{
+public class Athlete implements Participation{
 
 
 
