@@ -4,9 +4,9 @@ package com.example.olympicgames;
  * Created by allysonwilson on 9/15/17.
  */
 
+//Should be generic class to allow different sports
 public class Event {
-    private double distance;
-    private double time;
+
 //    award medals
 //   a switch statement vs if else
 
@@ -17,3 +17,7 @@ public class Event {
     }
 
 }
+
+//public interface Scorer {
+//public double scoreForAthlete(Athlete athlete);
+//}
