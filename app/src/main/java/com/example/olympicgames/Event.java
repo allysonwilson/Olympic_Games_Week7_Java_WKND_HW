@@ -5,4 +5,15 @@ package com.example.olympicgames;
  */
 
 public class Event {
+    private double distance;
+    private double time;
+//    award medals
+//   a switch statement vs if else
+
+
+    public Event( double distance, double time ) {
+        this.distance = distance;
+        this.time = time;
+    }
+
 }
