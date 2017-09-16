@@ -7,7 +7,18 @@ package com.example.olympicgames;
 
 public class Event {
 
-//    enummap?
+    private Medal medal;
+
+    public Event(Medal medal) {
+        this.medal = medal;
+    }
+
+    public Medal getMedal() {
+        return medal;
+    }
+
+
+    //    enummap?
 
 //    award medals
 //   a switch statement vs if else

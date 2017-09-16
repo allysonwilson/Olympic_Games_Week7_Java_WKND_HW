@@ -9,14 +9,19 @@ public class Athlete {
     public String country;
 
 
-    public Athlete( String name, String country){
+    public Athlete(String name, String country){
         this.name = name;
         this.country = country;
-
     }
 
     public String getName() {
         return name;
     }
+
+
+    public String getCountry() { return country;}
+
+
+
 }
 //implements Participation
