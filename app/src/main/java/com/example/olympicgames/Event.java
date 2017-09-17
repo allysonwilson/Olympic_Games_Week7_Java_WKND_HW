@@ -8,13 +8,20 @@ package com.example.olympicgames;
 public class Event {
 
     private Medal medal;
+    public String name;
 
-    public Event(Medal medal) {
+    public Event(Medal medal, String name) {
         this.medal = medal;
+        this.name = name;
+
     }
 
     public Medal getMedal() {
         return medal;
+    }
+
+    public String getName() {
+        return name;
     }
 
 

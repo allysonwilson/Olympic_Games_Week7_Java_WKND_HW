@@ -30,8 +30,4 @@ public class AthleteTest {
 }
 
 
-//public class GuitarTest {
-//    Guitar guitar;
-//
-//    @Before
-//    public void before() { guitar = new Guitar("Black", "String", 6); }
+//participation method/test

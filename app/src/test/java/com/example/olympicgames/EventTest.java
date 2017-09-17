@@ -11,11 +11,17 @@ public class EventTest {
 
     @Before
     public void before() {
-        event = new Event(Medal.GOLD);}
+        event = new Event(Medal.GOLD, "Synchronized Swimming");
+    }
 
     @Test
     public void canGetMedal() {
         assertEquals(Medal.GOLD, event.getMedal() ); }
 
+
+    @Test
+    public void canGetName() {
+        assertEquals("Synchronized Swimming", event.getName() );
+    }
 
 }
