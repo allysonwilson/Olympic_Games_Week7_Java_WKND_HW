@@ -5,14 +5,17 @@ package com.example.olympicgames;
  */
 
 
-public class Event {
+public class Event implements Participation{
 
     private Medal medal;
     public String name;
+    Arraylist<Participation> athletes;
+    Arraylist<Athlete> team;
 
     public Event(Medal medal, String name) {
         this.medal = medal;
         this.name = name;
+        this.athletes = new ArrayList<>();
 
     }
 
@@ -23,6 +26,8 @@ public class Event {
     public String getName() {
         return name;
     }
+
+    public Araylist<Participation> getAthletes() { return this.athletes; }
 
 
     //    enummap?

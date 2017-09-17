@@ -6,5 +6,19 @@ package com.example.olympicgames;
 
 public class TeamOfAthletes {
     public String country;
-    Arraylist<Participation> team;
+    Arraylist<Athlete> team;
+
+    public class TeamOfAthletes() {
+
+        this.athletes = new ArrayList<>();
+    }
+
+    public String getCountry() {
+        return country;
+    }
+
+    public Arraylist<Athlete> getTeam() {
+        return team;
+    }
+
 }

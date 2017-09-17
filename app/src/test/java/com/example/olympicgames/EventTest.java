@@ -25,3 +25,9 @@ public class EventTest {
     }
 
 }
+//if Athlete athlete || TeamOfAthlete team
+//else
+
+//or a ternary?
+//
+//for loop

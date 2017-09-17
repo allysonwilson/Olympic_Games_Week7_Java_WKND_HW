@@ -30,4 +30,3 @@ public class AthleteTest {
 }
 
 
-//participation method/test
